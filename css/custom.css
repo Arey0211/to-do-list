@@ -1,0 +1,116 @@
+/*==========================================
+			JS Classes
+==========================================*/
+.complete {
+	color: gray;
+	text-decoration: line-through;
+}
+
+/*=========================================
+		css
+=========================================*/
+body {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: "roboto";
+	background: #2BC0E4;
+	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);
+	background: linear-gradient(to right, #EAECC6, #2BC0E4);
+
+}
+
+.fa-plus {
+	float: right;
+}
+
+ul span {
+	background-color: #e74c3c;
+	margin-right: 10px;
+	color: #fff;
+	text-align: center;
+	width: 0px;
+	display: inline-block;
+	padding: 7px 0;
+	transition: .5s ease;
+}
+
+li {
+	background-color: #fff;
+	line-height: 100%;
+	margin: auto;
+	padding: 20px 0;
+
+}
+
+li:hover span {
+	width: 30px;
+}
+
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	box-sizing: border-box;
+	height: 35px;
+	color: #2980b9;
+}
+
+.dropdown {
+	display: none;
+}
+
+input:focus {
+	background-color: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+li:nth-child(2n){
+	background-color: #f7f7f7;
+}
+
+#container {
+	width: 360px;
+	margin: 15% auto;
+	background-color: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.4);
+}
+h1 {
+	background-color: #2980b9;
+	color: #fff;
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 24px;
+	font-weight: normal;
+}
+	
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
